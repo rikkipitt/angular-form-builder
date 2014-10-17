@@ -74,6 +74,7 @@ angular.module 'builder.provider', []
             options: formObject.options ? component.options
             required: formObject.required ? component.required
             validation: formObject.validation ? component.validation
+            rules: formObject.rules ? component.rules
         result
 
     @reindexFormObject = (name) =>
